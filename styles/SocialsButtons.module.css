@@ -1,0 +1,29 @@
+.socialsButtonsContainer{
+  display: flex;
+  margin-top: 5rem;
+}
+
+.socialsButton{
+  cursor: pointer;
+  background-color: white;
+  border: solid black 2px;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  width: 290px; /*make width responsive*/
+  margin: 1rem;
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.socialsButton:hover{
+  color: white;
+  background-color: black;
+}
+
+/* Mobile */
+@media (max-width: 700px){
+  .socialsButtonsContainer{
+    flex-direction: column;
+    margin-top: 0;
+  }
+}

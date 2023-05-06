@@ -1,0 +1,57 @@
+.ultraDescription{
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.copyContent {
+  color: black;
+  font-weight: bold;
+  font-size: 64px;
+  /* margin: 1.5rem; */
+  text-align: center;
+}
+
+.comingSoon {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  text-shadow:
+  0 0 4px red,
+  0 0 11px red,
+  0 0 19px red,
+  0 0 40px #f44336,
+  0 0 80px #f44336,
+  0 0 90px #f44336,
+  0 0 100px #f44336,
+  0 0 150px #f44336;
+}
+
+.bloodOnNikes{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2.5rem;
+}
+
+
+@media screen and (max-width: 600px){
+  .copyContent{
+    font-size: 2.125rem;
+  }
+
+  .comingSoon{
+    font-size: 100%;
+  }
+}
