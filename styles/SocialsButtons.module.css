@@ -4,6 +4,7 @@
 }
 
 .socialsButton{
+  color: black;
   cursor: pointer;
   background-color: white;
   border: solid black 2px;
